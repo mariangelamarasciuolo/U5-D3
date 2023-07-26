@@ -44,7 +44,7 @@
 
         .cards {
             display: flex;
-            row-gap: 6px;
+            row-gap: 30px;
             flex-wrap: wrap;
             justify-content: space-around;
         }
@@ -71,7 +71,7 @@
         }
 
         .card-body p {
-            margin-top: 0.5em;
+            margin-top: 0em;
             margin-bottom: 0.5em;
             font-size: .85rem;
         }
@@ -92,7 +92,7 @@
         @media (min-width: 768px) {
             .cards {
                 display: flex;
-                row-gap: 6px;
+                row-gap: 30px;
                 flex-wrap: wrap;
                 justify-content: space-around;
 
